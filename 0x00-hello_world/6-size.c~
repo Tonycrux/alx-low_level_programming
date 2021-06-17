@@ -1,0 +1,16 @@
+#include<stdio.h>
+/**
+ * main - Prints ""Programming is like building a multilingual puzzle"
+ * Return: 0
+ */
+int main(void)
+{
+	int intType;
+	float floatType;
+	double doubleType;
+	char charType;
+
+	printf("Size of a char: %zu bytes\n", sizeof(charType));
+	printf("Size of a int: %zu bytes\n", sizeof(intType));
+	return (0);
+}
