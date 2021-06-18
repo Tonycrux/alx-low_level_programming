@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
 /**
  * main - Prints "Number is Positive, Zero or Negative"
@@ -13,6 +13,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	int p = n % 10;
+
 	if (p > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, p);
 	else if (p == 0)
