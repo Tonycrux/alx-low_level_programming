@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for ALX School students.
- *
- * Return: Always 0.
+ * _isupper - check code for upper case
+ * @c : Character to chceck the case
+ * Return: 0 or 1
  */
 
 int _isupper(int c)
