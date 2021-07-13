@@ -1,19 +1,16 @@
-#include <stdio.h>
 #include "holberton.h"
+#include <stdio.h>
 
 /**
- * main- Entry point
- * @argc: Command line count
- * @argv: Array of strings in command line argument
- *
+ * main - prints name, then a new line
+ * @argc: argument count
+ * @argv: argument vector
  * Return: 0
- */
+*/
 
-int main(__attribute__ ((unused)) int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int i;
-
-	i = 0;
-	printf("%s\n", argv[i]);
+	(void)argc;
+	printf("%s\n", argv[0]);
 	return (0);
 }
